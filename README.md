@@ -1,8 +1,8 @@
-# 🎨 Color Studio 
+# 🎨 Color Picker 
 
 
 
-A modern and interactive **Color Studio** built using **HTML5, CSS3, and Vanilla JavaScript**. This application allows users to explore colors using a custom rainbow hue slider, view real-time color previews, convert HSL colors into HEX format, and save their favorite colors in a dedicated saved palette section.
+A modern and interactive **Color Picker** built using **HTML5, CSS3, and Vanilla JavaScript**. This application allows users to explore colors using a custom rainbow hue slider, view real-time color previews, convert HSL colors into HEX format, and save their favorite colors in a dedicated saved palette section.
 
 
 
