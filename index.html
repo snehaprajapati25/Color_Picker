@@ -13,22 +13,29 @@
         <h2>🎨 Color Picker</h2>
 
         <div class="tags">
-            <span>Spectrum</span>
-            <span>Pick Color</span>
-            <span>Saved</span>
+            <span id="spectrumTab">Spectrum</span>
+            <!-- <span>Pick Color</span> -->
+            <span id="savedTab">Saved</span>
         </div>
 
-        <!-- to preview color -->
-        <div class="color-box"></div>
 
-        <!-- hide color picker -->
-        <input type="color" id="picker">
+        <div class="spectrum-section">
+            <!-- to preview color -->
+             
+            <div class="color-box"></div>
 
-        <input type="text" id="hex-code" value="#ff0000">
+            <!-- hide color picker -->
+            <input type="range" id="hue-slider" min="0" max="360" value="0">
 
-        <button id="saveBtn">Save Color</button>
+            <input type="text" id="hex-code" value="#ff0000" readonly>
 
-        <div class="saved-colors"></div>
+            <button id="saveBtn">Save Color</button>
+        </div>
+
+
+        <div class="saved-section">
+            <div class="saved-colors"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
