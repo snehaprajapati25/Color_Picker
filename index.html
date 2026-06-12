@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h2>🎨 Color Picker</h2>
+
+        <div class="tags">
+            <span>Spectrum</span>
+            <span>Pick Color</span>
+            <span>Saved</span>
+        </div>
+
+        <!-- to preview color -->
+        <div class="color-box"></div>
+
+        <!-- hide color picker -->
+        <input type="color" id="picker">
+
+        <input type="text" id="hex-code" value="#ff0000">
+
+        <button id="saveBtn">Save Color</button>
+
+        <div class="saved-colors"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
